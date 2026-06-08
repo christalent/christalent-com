@@ -3,273 +3,145 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chris Talent — Developer, Educator & Martial Artist</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Chris Talent</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-inner">
-      <a href="#" class="nav-logo">CT</a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#martial-arts">Martial Arts</a></li>
-        <li><a href="#affiliations">Affiliations</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="nav-toggle" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </nav>
+<div class="w3-row w3-theme">
+	<!--- Photo -->
+	<div class="w3-center" style="height:200px">
+	  <img src="images/ChrisTalent-Suit.jpg" class="w3-circle" alt="Chris Talent photo">
+	</div>
 
-  <!-- Hero -->
-  <header class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-content reveal">
-      <p class="hero-greeting">Hello, I'm</p>
-      <h1 class="hero-name">Chris Talent</h1>
-      <p class="hero-tagline">Full Stack Developer · Educator · Martial Artist</p>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-number">15+</span>
-          <span class="stat-label">Years Teaching</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">4</span>
-          <span class="stat-label">Black Belts</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">20+</span>
-          <span class="stat-label">Years Coding</span>
-        </div>
-      </div>
-    </div>
-    <div class="hero-scroll">
-      <span>Scroll to explore</span>
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M12 5v14M19 12l-7 7-7-7"/>
-      </svg>
-    </div>
-  </header>
+	<!--- Tagline -->
+	<div class="w3-center">
+		<h1>Chris Talent</h1>
+	  <p>Interested in martial arts, philosophy, and technology...</p>
+	</div>
+</div>
 
-  <!-- About -->
-  <section id="about" class="section">
-    <div class="container">
-      <div class="section-label reveal">01 — About</div>
-      <h2 class="section-title reveal">Building things that matter.</h2>
-      <div class="about-grid">
-        <div class="about-text reveal">
-          <p>I'm a software developer with over 20 years of professional experience, specializing in full-stack web development, cloud infrastructure, and developer tooling. I've shipped everything from internal enterprise tools to public-facing products.</p>
-          <p>Beyond code, I'm passionate about education — teaching programming, martial arts, and everything in between. My teaching philosophy is simple: meet people where they are and help them get further than they thought possible.</p>
-          <p>Currently focused on AI-powered developer tools, real-time applications, and making technology more accessible.</p>
-        </div>
-        <div class="about-highlights reveal">
-          <div class="highlight-card">
-            <div class="highlight-icon">💻</div>
-            <h3>Developer</h3>
-            <p>Full-stack web, cloud infrastructure, developer tooling, AI integrations</p>
-          </div>
-          <div class="highlight-card">
-            <div class="highlight-icon">🎓</div>
-            <h3>Educator</h3>
-            <p>Programming, martial arts instruction, curriculum design, mentoring</p>
-          </div>
-          <div class="highlight-card">
-            <div class="highlight-icon">🥋</div>
-            <h3>Martial Artist</h3>
-            <p>Instructor-level credentials across multiple styles, active practitioner</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Skills -->
-  <section id="skills" class="section section-dark">
-    <div class="container">
-      <div class="section-label reveal">02 — Technical Skills</div>
-      <h2 class="section-title reveal">What I work with.</h2>
-      <div class="skills-grid">
-        <div class="skill-category reveal">
-          <h3 class="skill-category-title">Languages & Frameworks</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">JavaScript / TypeScript</span>
-            <span class="skill-tag">React</span>
-            <span class="skill-tag">Node.js</span>
-            <span class="skill-tag">Go</span>
-            <span class="skill-tag">Rust</span>
-            <span class="skill-tag">HTML / CSS</span>
-            <span class="skill-tag">SQL</span>
-          </div>
-        </div>
-        <div class="skill-category reveal">
-          <h3 class="skill-category-title">Infrastructure & Cloud</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">AWS</span>
-            <span class="skill-tag">Google Cloud</span>
-            <span class="skill-tag">Docker</span>
-            <span class="skill-tag">Kubernetes</span>
-            <span class="skill-tag">Terraform</span>
-            <span class="skill-tag">CI/CD</span>
-            <span class="skill-tag">Linux</span>
-          </div>
-        </div>
-        <div class="skill-category reveal">
-          <h3 class="skill-category-title">AI & Machine Learning</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">LLM Integration</span>
-            <span class="skill-tag">LangChain</span>
-            <span class="skill-tag">RAG Systems</span>
-            <span class="skill-tag">OpenAI API</span>
-            <span class="skill-tag">Computer Vision</span>
-            <span class="skill-tag">Model Fine-tuning</span>
-          </div>
-        </div>
-        <div class="skill-category reveal">
-          <h3 class="skill-category-title">Tools & Practices</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">Git</span>
-            <span class="skill-tag">Agile / Scrum</span>
-            <span class="skill-tag">REST APIs</span>
-            <span class="skill-tag">GraphQL</span>
-            <span class="skill-tag">Testing / TDD</span>
-            <span class="skill-tag">Code Review</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<!--- Employment -->
+<div class="w3-container w3-theme w3-center">
+	<h3 style="text-shadow:-2px 2px 0 #444">Employment</h3>
+</div>
 
-  <!-- Martial Arts -->
-  <section id="martial-arts" class="section">
-    <div class="container">
-      <div class="section-label reveal">03 — Martial Arts</div>
-      <h2 class="section-title reveal">Decades of training, instructing, and learning.</h2>
-      <p class="section-subtitle reveal">Current rank: 2nd degree black belt (Nidan) in Judo — USJA Coach Certified</p>
 
-      <div class="ma-grid">
-        <div class="ma-card reveal">
-          <div class="ma-card-header">
-            <span class="ma-rank">2nd Degree Black Belt</span>
-            <span class="ma-style">Kajukenbo Tum Pai</span>
-          </div>
-          <h3>Certified Instructor</h3>
-          <p>Self-defense system combining Kenpo, Judo, Juudo,boxing and weapons. Focus on street-effective technique with strong instructor credentials.</p>
-        </div>
+<!-- Employer list -->
+<div class="w3-row w3-theme">
+	
+	<div class="w3-half w3-card w3-theme w3-center">
+		<div class="w3-container w3-center">
+			<a href="http://www.cowlitzpud.org/"><img src="images/CowlitzPUDLogo-128x128.jpg" alt="Cowlitz County PUD logo"></a>
+		</div>
+		<div class="w3-container w3-center">
+			Systems Architect (2008-Present)
+		</div>
+	</div>
 
-        <div class="ma-card reveal">
-          <div class="ma-card-header">
-            <span class="ma-rank">2nd Degree (Nidan)</span>
-            <span class="ma-style">Judo</span>
-          </div>
-          <h3>USJA Coach Certified</h3>
-          <p>Olympic-style throwing art and ground work. USJA certified coach with competitive and instructional experience.</p>
-        </div>
+	<div class="w3-half w3-card w3-theme w3-center">
+		<div class="w3-container w3-center">
+			<a href="https://en.wikipedia.org/wiki/Kapstone"><img src="images/KapStone_logo.jpg" alt="Kapstone logo" height="128"></a>
+		</div>
+		<div class="w3-container w3-center">
+			Enterprise Architect (1997-2008)
+		</div>
+	</div>
+	
+</div>
 
-        <div class="ma-card reveal">
-          <div class="ma-card-header">
-            <span class="ma-rank">5th Dan</span>
-            <span class="ma-style">Hapkido</span>
-          </div>
-          <h3>Senior Practitioner</h3>
-          <p>Korean self-defense art emphasizing joint locks, kicks, and fluid movement. High-level rank with extensive training background.</p>
-        </div>
 
-        <div class="ma-card reveal">
-          <div class="ma-card-header">
-            <span class="ma-rank">5th Dan</span>
-            <span class="ma-style">Taekwondo</span>
-          </div>
-          <h3>Kukkiwon Certified</h3>
-          <p>Korean striking art with world governing body certification. Focus on kicks, forms, and sparring at the master level.</p>
-        </div>
-      </div>
 
-      <div class="ma-current reveal">
-        <div class="ma-current-icon">🧘</div>
-        <div>
-          <h3>Currently Teaching: Tai Chi</h3>
-          <p>Leading instruction in tai chi for students of all levels. Emphasizing balance, flow, and the internal martial arts tradition.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+<!--- Education -->
+<div class="w3-container w3-theme-l1 w3-center">
+	<h3 style="text-shadow:-2px 2px 0 #444">Education</h3>
+	<h4><a href="http://www.isri.cmu.edu/">Carnegie Mellon University Institute for Software Research</a></h4>
+	Certified Enterprise Architect (2007)<br>
 
-  <!-- Affiliations -->
-  <section id="affiliations" class="section section-dark">
-    <div class="container">
-      <div class="section-label reveal">04 — Affiliations</div>
-      <h2 class="section-title reveal">Organizations I'm proud to be part of.</h2>
-      <div class="affiliations-list">
-        <div class="affiliation-item reveal">
-          <div class="affiliation-year">2017 — Present</div>
-          <div class="affiliation-info">
-            <h3>Freelance Developer & Consultant</h3>
-            <p>Independent contract work across web development, AI integration, and technical architecture consulting.</p>
-          </div>
-        </div>
-        <div class="affiliation-item reveal">
-          <div class="affiliation-year">2013 — 2017</div>
-          <div class="affiliation-info">
-            <h3>Senior Developer — Various Roles</h3>
-            <p>Enterprise software development, team leadership, and architecture design across multiple industry verticals.</p>
-          </div>
-        </div>
-        <div class="affiliation-item reveal">
-          <div class="affiliation-year">Ongoing</div>
-          <div class="affiliation-info">
-            <h3>Martial Arts Instructor</h3>
-            <p>Teaching tai chi, self-defense, and multi-style martial arts. Former competitive competitor, current educator.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<h4><a href="http://www.wwu.edu/">Western Washington University</a></h4>
+	B.A. Philosophy, Minor Computer Science (1997)<br>
 
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <div class="container">
-      <div class="section-label reveal">05 — Contact</div>
-      <h2 class="section-title reveal">Let's connect.</h2>
-      <div class="contact-grid">
-        <div class="contact-intro reveal">
-          <p>Open to interesting projects, conversations about technology or martial arts, and opportunities to teach or collaborate. If you're working on something cool, I'd love to hear about it.</p>
-        </div>
-        <div class="contact-links reveal">
-          <a href="mailto:chris@christalent.com" class="contact-link">
-            <span class="contact-link-icon">✉️</span>
-            <span>chris@christalent.com</span>
-          </a>
-          <a href="https://christalent.com" class="contact-link" target="_blank">
-            <span class="contact-link-icon">🌐</span>
-            <span>christalent.com</span>
-          </a>
-          <a href="https://github.com" class="contact-link" target="_blank">
-            <span class="contact-link-icon">💻</span>
-            <span>GitHub</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+	<h4><a href="http://lowercolumbia.edu/">Lower Columbia College</a></h4>
+	Associate of Arts and Sciences (1994)<br>
+	Outstanding Philosophy Student of the Year (1993, 1994)<br>
+	
+	<h4><a href="http://www.longview.k12.wa.us/RALong%20Access.htm">R. A. Long High School</a></h4>
+	High School Diploma (1991)<br>
+</div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2026 Chris Talent. Built with care.</p>
-    </div>
-  </footer>
+<!--- Martial Arts -->
+<div class="w3-container w3-theme w3-center">
+	<h3 style="text-shadow:-2px 2px 0 #444">Martial Arts</h3>
+	
+	<!--- Taekwondo -->
+	<h4><a href="http://en.wikipedia.org/wiki/Taekwondo">Taekwondo</a></h4>
 
-  <script src="scripts.js"></script>
+	<a href="http://www.kukkiwon.or.kr/">Kukkiwon (World Taekwondo Federation)</a>:
+	<a href="pdf/ChrisTalent-Kukkiwon-5thDan-cropped.pdf">5th Dan</a><br>
+	<a href="pdf/ChrisTalent-Kukkiwon-Master_Certificate.pdf">Master Certificate (Member of Kukkiwon Membership System)</a>
+	<br>
+	<a href="http://cafe.daum.net/tkdjido">Jidokwan Taekwondo</a>:
+	<a href="pdf/ChrisTalent-Jidokwan-4thDanCert.pdf">4th Dan</a>,
+	<a href="pdf/ChrisTalent-Jidokwan-Citation.pdf">Citation</a>
+	<br>
+	<a href="http://chitaekwondo.com/">Chi Taekwondo Association</a>:
+	<a href="pdf/ChrisTalent-Taekwondo-4thDan.pdf">4th Dan</a>
+	<br>
+
+	<!--- Judo -->
+	<h4><a href="http://en.wikipedia.org/wiki/Judo">Judo</a></h4>
+	<a href="http://www.usja-judo.org/">United States Judo Association</a>:
+	<a href="pdf/ChrisTalent-USJA-2ndDegree-Nidan-Certificate.pdf">2nd Degree (Nidan)</a><br>
+	<a href="pdf/ChrisTalent-USJA-Shodan.pdf">1st Degree (Shodan)</a>,
+	<a href="pdf/ChrisTalent-USJA-Coach-Level1-Local-2022.pdf">Coach Certification</a>,
+	<a href="pdf/ChrisTalent-USJALifeMembership.pdf">Life Membership Award</a>
+	<br>
+	
+	<!--- Hapkido -->
+	<h4><a href="http://en.wikipedia.org/wiki/Hapkido">Hapkido</a></h4>
+    <a href="pdf/ChrisTalent-Hosinsul5thDan-11x17-300DPI-cropped.pdf">5th Dan International Hosinsul Federation</a><br>
+    
+	<a href="http://www.kidohae.or.kr/">Korean Kidohae</a>:
+	<a href="pdf/ChrisTalent-Kidohae-MasterCert.pdf">Master Certification</a>
+	<a href="pdf/ChrisTalent-Kidohae-4thDanCert.pdf">4th Dan</a>
+	
+
+	<!--- Other styles -->
+
+	<!--- Kajukenbo Tum Pai --->
+	<h4><a href="http://tumpai.com/">Kakukenbo Tum Pai</a></h4>
+	<a href="pdf/ChrisTalent_KajukenboTumPai-1stDegreeInstructor.pdf">1st Degree Black, Certified Instructor</a>
+
+	<h4>Additional Styles Trained</h4>
+	<a href="http://en.wikipedia.org/wiki/T'ai_chi_ch'uan">Tai Chi Chuan</a>
+	<br>
+</div>
+
+<!--- Other -->
+<div class="w3-container w3-theme-l1 w3-center">
+	<h3 style="text-shadow:-2px 2px 0 #444">Other</h3>
+	<h4>Cowlitz County Citizens' Police Academy</a></h4>
+	Diploma <a href="pdf/ChrisTalent-CitizensPoliceAcademy2013.pdf">(2013)</a><br>
+
+	<h4>Longview <a href="http://www.foe.com/">Fraternal Order of Eagles</a> #2116</h4>
+	Chairman of the Board of Trustees (2016)<br>
+	Past Worthy President
+		(<a href="pdf/ChrisTalent-EaglesPastWorthyPresident-2015.pdf">2015</a>,
+		 <a href="pdf/ChrisTalent-EaglesPastWorthyPresident-2014.pdf">2014</a>)
+		<br>
+	President (2015, 2014)<br>
+	Chaplain (2013)
+	<br>
+	
+</div>
+	
+<!--- Footer --->
+<div class="w3-container w3-theme w3-center">
+	<p>&copy; Chris Talent</p>
+</div>
+
+
 </body>
 </html>
