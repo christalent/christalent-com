@@ -1,0 +1,28 @@
+/* Christalent.com local styles
+ * Loaded after w3.css so these rules win the cascade for heading sizing.
+ * Fluid clamp() headings scale cleanly from phone to desktop.
+ */
+
+h1 {
+  font-size: clamp(1.75rem, 1.2rem + 2.5vw, 2.5rem);
+  line-height: 1.2;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: clamp(1.35rem, 1.1rem + 1.2vw, 1.75rem);
+  line-height: 1.25;
+  margin: 0.83em 0;
+}
+
+h3 {
+  font-size: clamp(1.05rem, 0.95rem + 0.5vw, 1.25rem);
+  line-height: 1.3;
+  margin: 1em 0;
+}
+
+h4, h5, h6 {
+  font-size: 1rem;
+  line-height: 1.3;
+  margin: 1em 0;
+}
