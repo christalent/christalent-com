@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /dev/
+Disallow: /fitness/
+Disallow: /privacy/
+
+Sitemap: https://www.christalent.com/sitemap.xml
